@@ -3,5 +3,6 @@ This script is supplement appendix of article Fungal community assemblages in a 
 #### Usage：
 > Calculate the distribution range of the shared fungal OTUs, based on the maximum geographic distance between individuals of that OTU.
  
- 
+``` perl 
 perl shared_otu_range.pl otu_table.txt geo_line.txt > out_file.txt
+```
